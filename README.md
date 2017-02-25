@@ -29,3 +29,16 @@ Run the application on a device
 ```
 ionic run android
 ```
+
+When the application loads the home screen will be displayed showing the ion-tabs at the bottom
+
+
+<img src="http://i.imgur.com/CqUYYlR.png" width="224">
+
+Navigating to the next page via the header bar button will display the first sub page with the tabs successfully hidden
+
+<img src="http://i.imgur.com/dkxG56W.png" width="224">
+
+Navigating to the next page via the header bar button will display the second sub page with the native map and the tabs will not be hidden. 
+
+<img src="http://i.imgur.com/2I2NW5U.png" width="224">
