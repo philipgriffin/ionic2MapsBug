@@ -17,7 +17,7 @@ npm install
 
 Install Cordova Maps Plugin, This will require API Keys
 ```
-ionic plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="YOUR_ANDROID_API_KEY_IS_HERE" --variable API_KEY_FOR_IOS="YOUR_IOS_API_KEY_IS_HERE"
+ionic cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="YOUR_ANDROID_API_KEY_IS_HERE" --variable API_KEY_FOR_IOS="YOUR_IOS_API_KEY_IS_HERE"
 ```
 
 Add appropriate platform
@@ -27,7 +27,7 @@ ionic platform add android
 
 Run the application on a device
 ```
-ionic run android
+ionic cordova run android
 ```
 
 When the application loads the home screen will be displayed showing the ion-tabs at the bottom
